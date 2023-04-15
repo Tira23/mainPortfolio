@@ -9,6 +9,10 @@ body {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.29);
 }
 
+a {
+  text-decoration: none;
+}
+
 .carts-flex {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +40,6 @@ body {
 .carts-flex .cart .label {
   width: 100%;
   border: none;
-  height: 100px;
   background: linear-gradient(45deg, #9938e9, #2bddc5);
 }
 .carts-flex .cart .label h2 {
