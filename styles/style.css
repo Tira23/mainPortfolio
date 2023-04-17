@@ -4,11 +4,32 @@ body {
 }
 
 .alert {
-  background-color: #f24949;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(242, 73, 73, 0.5);
   text-align: center;
   font-weight: bold;
-  font-size: 40px;
   padding: 20px;
+  z-index: 50;
+}
+.alert .alertText {
+  display: block;
+  font-size: 50px;
+  color: aliceblue;
+}
+.alert button {
+  margin-top: 50px;
+  font-size: 40px;
+  border-radius: 20%;
+  border: none;
+  background-color: #bcced7;
 }
 
 .container {

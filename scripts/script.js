@@ -20,3 +20,7 @@
 // }
 
 
+const D = document;
+D.getElementById('alert').addEventListener('click', ()=>{
+    D.querySelector('.alert').remove()
+})
