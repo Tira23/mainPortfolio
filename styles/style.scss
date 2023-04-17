@@ -4,6 +4,13 @@ body {
 
 }
 
+.alert{
+  background-color: #f24949;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px;
+}
 .container {
   max-width: 90%;
   margin: 30px auto;
@@ -83,7 +90,7 @@ a {
 }
 
 .label-tsFirst {
-  background: linear-gradient(45deg, #9938e9, #2bddc5);
+  background: linear-gradient(45deg, rgba(153, 56, 233, 0.5), #2bddc5);
   h2 {
     color: #9938e9;
   }
@@ -93,11 +100,21 @@ a {
 }
 
 .label-todos {
-  background: linear-gradient(45deg, #bcced7, #00ffe2);
+  background: linear-gradient(45deg, rgba(188, 206, 215, 0.5), #00ffe2);
   h2 {
     color: #911138;
   }
   p {
     color: #005022;
+  }
+}
+
+.label-cars-hw {
+  background: linear-gradient(45deg, rgba(188, 215, 197, 0.5), #6deb28);
+  h2 {
+    color: #771191;
+  }
+  p {
+    color: #006b67;
   }
 }
