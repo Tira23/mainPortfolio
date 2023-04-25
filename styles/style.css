@@ -84,7 +84,7 @@ a {
   padding: 10px;
 }
 
-.logo-1, .logo-2 {
+.logo-1, .logo-2, .logo-3 {
   position: absolute;
   width: 70px;
   z-index: 5;
@@ -97,6 +97,11 @@ a {
 .logo-2 {
   top: 0;
   left: 70px;
+}
+
+.logo-3 {
+  top: 0;
+  left: 140px;
 }
 
 .label-tsFirst {
@@ -127,6 +132,16 @@ a {
 }
 .label-cars-hw p {
   color: #006b67;
+}
+
+.label-myShop {
+  background: linear-gradient(45deg, rgba(215, 209, 188, 0.5), #831a72);
+}
+.label-myShop h2 {
+  color: #5ce82a;
+}
+.label-myShop p {
+  color: #00e8e5;
 }
 
 /*# sourceMappingURL=style.css.map */
