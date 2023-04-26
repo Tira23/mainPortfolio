@@ -144,4 +144,14 @@ a {
   color: #00e8e5;
 }
 
+.label-git {
+  background: linear-gradient(45deg, rgba(122, 98, 20, 0.5), #4fbbe2);
+}
+.label-git h2 {
+  color: #b717bf;
+}
+.label-git p {
+  color: #65e185;
+}
+
 /*# sourceMappingURL=style.css.map */
